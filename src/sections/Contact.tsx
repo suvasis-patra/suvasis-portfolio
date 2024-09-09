@@ -1,5 +1,5 @@
-import ArrowRightIcon from "@/assets/icons/arrow-up-right.svg";
 import grainBackground from "@/assets/images/grain.jpg";
+import ArrowRightIcon from "@/assets/icons/arrow-up-right.svg";
 export const ContactSection = () => {
   return (
     <section className="py-16 lg:py-24 lg:pt-20" id="contact">

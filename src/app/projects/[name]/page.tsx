@@ -1,15 +1,16 @@
-import ShowImages from "@/app/projects/components/Images";
+import Link from "next/link";
+
+import { Footer } from "@/sections/Footer";
 import grainImage from "@/assets/images/grain.jpg";
+import Links from "@/app/projects/components/Links";
 import { PORTFOLIO_PROJECT_DETAILS } from "@/constant";
-import Description from "@/app/projects/components/Description";
+import Heading from "@/app/projects/components/Heading";
+import ShowImages from "@/app/projects/components/Images";
 import Features from "@/app/projects/components/Features";
 import TechStack from "@/app/projects/components/Techstack";
-import FuturePlans from "@/app/projects/components/FuturePlans";
-import Heading from "@/app/projects/components/Heading";
-import Links from "@/app/projects/components/Links";
-import { Footer } from "@/sections/Footer";
-import Link from "next/link";
 import ArrowRightIcon from "@/assets/icons/arrow-up-right.svg";
+import Description from "@/app/projects/components/Description";
+import FuturePlans from "@/app/projects/components/FuturePlans";
 
 export default function Project({ params }: { params: { name: string } }) {
   const [project, ...other] = PORTFOLIO_PROJECT_DETAILS.filter(

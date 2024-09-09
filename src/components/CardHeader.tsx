@@ -1,7 +1,7 @@
 import React from "react";
+import { twMerge } from "tailwind-merge";
 
 import StarIcon from "@/assets/icons/star.svg";
-import { twMerge } from "tailwind-merge";
 const CardHeader = ({
   title,
   description,

@@ -1,10 +1,11 @@
+import Link from "next/link";
 import Image from "next/image";
+
 import Card from "@/components/Card";
 import { PORTFOLIO_PROJECT } from "@/constant";
 import GithubIcon from "@/assets/icons/github.svg";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowRightIcon from "@/assets/icons/arrow-up-right.svg";
-import Link from "next/link";
 
 export const ProjectsSection = () => {
   return (

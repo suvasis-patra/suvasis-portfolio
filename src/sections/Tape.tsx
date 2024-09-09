@@ -1,6 +1,6 @@
 import { Fragment } from "react";
-import { WORDS } from "@/constant";
 
+import { WORDS } from "@/constant";
 import StarIcon from "@/assets/icons/star.svg";
 
 export const TapeSection = () => {

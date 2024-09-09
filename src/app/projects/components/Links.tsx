@@ -1,6 +1,6 @@
 import GithubIcon from "@/assets/icons/github.svg";
 import ArrowRightIcon from "@/assets/icons/arrow-up-right.svg";
-import ProjectSectionHeader from "./ProjectSectionHeader";
+import ProjectSectionHeader from "@/app/projects/components/ProjectSectionHeader";
 export default function Links({
   githubLink,
   liveLink,

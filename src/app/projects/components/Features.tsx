@@ -1,5 +1,5 @@
 import CircleCheckIcon from "@/assets/icons/check-circle.svg";
-import ProjectSectionHeader from "./ProjectSectionHeader";
+import ProjectSectionHeader from "@/app/projects/components/ProjectSectionHeader";
 
 export default function Features({
   features,

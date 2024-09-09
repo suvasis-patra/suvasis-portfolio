@@ -1,5 +1,5 @@
 import IdeaIcon from "@/assets/icons/idea-icon.svg";
-import ProjectSectionHeader from "./ProjectSectionHeader";
+import ProjectSectionHeader from "@/app/projects/components/ProjectSectionHeader";
 export default function FuturePlans({
   futurePlans,
 }: {

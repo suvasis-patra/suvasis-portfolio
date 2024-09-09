@@ -1,4 +1,4 @@
-import ProjectSectionHeader from "./ProjectSectionHeader";
+import ProjectSectionHeader from "@/app/projects/components/ProjectSectionHeader";
 
 export default function Description({ description }: { description: string }) {
   return (
